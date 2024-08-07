@@ -69,6 +69,7 @@ const Chat = () => {
         },
         data,
       ]);
+      setText('');
     } catch (error) {
       console.log(error);
     } finally {
@@ -123,6 +124,7 @@ const Chat = () => {
 
         <div className="absolute bottom-0 right-0 left-0  p-4 text-white flex gap-6 items-center border-t border-slate-200">
           <input
+            value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Send message"
             type="text"
