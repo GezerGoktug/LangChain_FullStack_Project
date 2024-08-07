@@ -12,7 +12,7 @@
 <li>Tailwind CSS</li>  
 <li>TypeScript</li>  
 <li>React</li>    
-<li>Redux Router DOM</li>
+<li>React Router DOM</li>
 <li>Axios</li>  
 <li>React İcons</li>    
 </ul></strong>
